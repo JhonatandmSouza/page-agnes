@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header, section {
+    display: flex;
+    width: 120rem;
+    margin: 0 auto;
+    
+}
+
+section {
+    margin-top: 10rem;
+}
+
+header img {
+    width: 50rem;
+}
+
+header div h1 {
+    font-family: 'pacifico', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15rem;
+    text-align: center;
+}
+
+header div nav {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-family: "lobster";
+}
+
+p {
+    font-family: "dancing";
+}
+
+footer {
+    padding: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.care-beauty,
+footer .contact {
+    text-align: center;
+    font-size: 5rem;
+}
