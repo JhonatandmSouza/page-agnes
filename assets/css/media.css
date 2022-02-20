@@ -1,25 +1,41 @@
 @media (max-width: 1200px) {
 
-    header, section {
+    section {
+        margin-top: 5rem;
+    }
+    
+    header, 
+    .section-two {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
         align-items: center;
         max-width: 100vw;
     }
 
-    div {
-        position: absolute;
+    .section-one,
+    .section-three {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
     }
 
     header div h1 {
-        font-size: 10rem;
+        font-size: 5em;
     }
 
-    img {
-        margin-top: 45rem;
+    header img,
+    section img {
         max-width: 100%;
     }
-    
+
+    .contact,
+    footer .contact {
+        font-size: 2em;
+        padding-bottom: 1rem;
+    }
+
+ 
 }
